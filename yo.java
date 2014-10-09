@@ -7,19 +7,19 @@ public class yo
 
   public static void main(String args[])
   {
-    String x = System.in;
-    String y = System.in;
-    int num = x.parseInt();
-    int num1 = y.parseInt();
-    add(num,num1);
+     String num = System.in.toString();    
+    
+    
 
+   String   num1 = System.in.toString();
+add(num,num1);
 
   }
    
-   public int add(	int x, int yo)
+   public static String add( String x, String y)
    {
 
-    return x +y;
+    return x +" is better than  "+y;
    }
 
 }
